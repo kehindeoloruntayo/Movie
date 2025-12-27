@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for your favorite movies</title>
+    <link rel="shortcut icon" href="" type="image/svg+xml">
+</head>
+
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <div class="overlay" data-overlay></div>
+            <a href="" class="logo">
+                <img src="" class="site-logo" id="logo" alt="Filmheaven logo">
+            </a>
+            <div class="header-actions">
+                <button class="search-btn">
+                    <ion-icon name="" id="searchIcon"></ion-icon>
+                </button>
+                <div class="lang-wrapper">
+                    <label for="language">
+                        <ion-icon name="globe-outline"></ion-icon>
+                    </label>
+                    <select name="language" id="language">
+                        <option value="en">EN</option>
+                        <option value="au">AU</option>
+                        <option value="ar">AR</option>
+                        <option value="tu">TU</option>
+                    </select>
+                </div>
+            </div>
+            <button class="menu-open-btn" data-menu-open-btn>
+                <ion-icon name="reorder-two"></ion-icon>
+            </button>
+
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="" class="logo">
+                        <img src="" alt="Filmheaven logo">
+                    </a>
+                    <button class="menu-close-btn" data-menu-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="./index.html" class="navbar-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="./index.html" class="navbar-link">Movie</a>
+                    </li>
+                    <li>
+                        <a href="./index.html" class="navbar-link">Top rated</a>
+                    </li>
+                    <li>
+                        <a href="./index.html" class="navbar-link">Tv Series</a>
+                    </li>
+                    <li>
+                        <a href="./index.html" class="navbar-link">Search</a>
+                    </li>
+                </ul>
+                <ul class="navbar-social-list">
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-pinterest"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="search">
+        <div class="search">
+            <div class="container">
+                <div class="search-container">
+                    <input type="text" placeholder="Enter movie name here..." id="movie-name" value="" class="msg">
+                    <button id="search-btn">Search</button>
+                </div>
+                <div class="search-card">
+                    <div id="result">
+                        <div class="info">
+                            <img src="" class="poster" id="poster">
+                            <div>
+                                <h2 id="title"></h2>
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+                                    <h4 id="imdbRating"></h4>
+                                </div>
+                                <div class="details" id="details">
+                                    <span id="rated"></span>
+                                    <span id="year"></span>
+                                    <span id="runtime"></span>
+                                </div>
+                                <div class="genre" id="genre">
+                                    <div></div>
+                                </div>
+                                <h3>Plot:</h3>
+                                <p id="plot"></p>
+                                <h3>Cast:</h3>
+                                <p id="actors"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-brand-wrapper">
+                    <a href="" class="logo">
+                        <img src="" class="site-logo" id="logo2" alt="Filmheaven logo">
+                    </a>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="./index.html" class="footer-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#upcoming" class="footer-link">Movie</a>
+                        </li>
+                        <li>
+                            <a href="#top-rated" class="footer-link">TV Show</a>
+                        </li>
+                        <li>
+                            <a href="#tv-series" class="footer-link">Web Series</a>
+                        </li>
+                        <li>
+                            <a href="./search.html" class="footer-link">Search</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="divider"></div>
+                <div class="quicklink-wrapper">
+                    <ul class="quicklink-list">
+                        <li>
+                            <a href="#" class="quicklink-link">Faq</a>
+                        </li>
+                        <li>
+                            <a href="#" class="quicklink-link">Help center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="quicklink-link">Terms of use</a>
+                        </li>
+                        <li>
+                            <a href="#" class="quicklink-link">Privacy</a>
+                        </li>
+                    </ul>
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2025 <a href="#">kehindeoloruntayo</a>. All Rights Reserved
+                </p>
+                <img src="" alt="Online banking companies logo" class="footer-bottom-img">
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up"></ion-icon>
+    </a>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
