@@ -3,7 +3,7 @@ import '../css/search.css';
 export default class MovieSearch {
     static fetchMovieData(successCallback, errorCallback, movieName) {
         let request = new XMLHttpRequest();
-        const searchurl = `http://www.omdbapi.com/?t=${movieName}&apikey=${process.env.SEARCH_KEY}`;
+        const searchurl = `https://www.omdbapi.com/?t=${movieName}&apikey=${process.env.SEARCH_KEY}`;
 
         request.onload = function () {
             if (this.readyState === 4) {
