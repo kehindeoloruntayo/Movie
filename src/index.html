@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmheaven - Best movie collections</title>
+    <link rel="shortcut icon" href="" type="image/svg+xml">
+</head>
+
+<body id="#top">
+    <header class="header" data-header>
+        <div class="container">
+            <div class="overlay" data-overlay></div>
+            <a href="" class="logo">
+                <img src="" class="site-logo" id="logo" alt="Filmheaven logo">
+            </a>
+            <div class="header-actions">
+                <button class="search-btn">
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+                <div class="lang-wrapper">
+                    <label for="language">
+                        <ion-icon name="globe-outline"></ion-icon>
+                    </label>
+                    <select name="language" id="language">
+                        <option value="en">EN</option>
+                        <option value="au">AU</option>
+                        <option value="ar">AR</option>
+                        <option value="tu">TU</option>
+                    </select>
+                </div>
+                <!-- <button class="btn btn-primary">Sign in</button> -->
+            </div>
+            <button class="menu-open-btn" data-menu-open-btn>
+                <ion-icon name="reorder-two"></ion-icon>
+            </button>
+
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="" class="logo">
+                        <img src="" class="site-logo" id="logo3" alt="Filmheaven logo">
+                    </a>
+                    <button class="menu-close-btn" data-menu-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="./index.html" class="navbar-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#upcoming" class="navbar-link">Movie</a>
+                    </li>
+                    <li>
+                        <a href="#top-rated" class="navbar-link">Top rated</a>
+                    </li>
+                    <li>
+                        <a href="#tv-series" class="navbar-link">Tv Series</a>
+                    </li>
+                    <li>
+                        <a href="./search.html" class="navbar-link">Search</a>
+                    </li>
+                </ul>
+                <ul class="navbar-social-list">
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-pinterest"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">Filmheaven</p>
+                        <h1 class="h1 hero-title">
+                            Unlimited <strong>Movie</strong>, TVs Shows, & More.
+                        </h1>
+                        <div class="meta-wrapper">
+                            <div class="badge-wrapper">
+                                <div class="badge badge-fill">PG 18</div>
+                                <div class="badge badge-outline">HD</div>
+                            </div>
+                            <div class="genre-wrapper">
+                                <a href="#">Romance,</a>
+                                <a href="#">Drama</a>
+                            </div>
+                            <div class="date-time">
+                                <div>
+                                    <ion-icon name="calendar-outline"></ion-icon>
+                                    <time datetime="2025">2025</time>
+                                </div>
+                                <div>
+                                    <ion-icon name="time-outline"></ion-icon>
+                                    <time datetime="PT128M">128 min</time>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">
+                            <ion-icon name="play"></ion-icon>
+                            <span>Watch now</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="upcoming" id="upcoming">
+                <div class="container">
+                    <div class="flex-wrapper">
+                        <div class="title-wrapper">
+                            <p class="section-subtitle">Online Streaming</p>
+                            <h2 class="h2 section-title">Upcoming Movies</h2>
+                        </div>
+                        <ul class="filter-list">
+                            <li>
+                                <button class="filter-btn">Movies</button>
+                            </li>
+                            <li>
+                                <button class="filter-btn">TV Shows</button>
+                            </li>
+                            <li>
+                                <button class="filter-btn">Top Rated</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="movies-list  has-scrollbar">
+                        <li>
+                            <div class="movie-card">
+                                <a class="movieId" href="./movie-details.html?id=MOVIE_ID">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">HD</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT137M"></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="movie-card">
+                                <a class="movieId" href="./movie-details.html?id=MOVIE_ID">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">4K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT126M"></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="movie-card">
+                                <a class="movieId" href="./movie-details.html?id=MOVIE_ID">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">2K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="movie-card">
+                                <a class="movieId" href="./movie-details.html?id=MOVIE_ID">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href="">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">HD</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT107M"></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="service">
+                <div class="container">
+                    <div class="service-banner">
+                        <figure>
+                            <img src="" id="service" alt="HD 4k resolution! only $3.99">
+                        </figure>
+                        <a href="" id="service" download class="service-btn">
+                            <span>Download</span>
+                            <ion-icon name="download-outline"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="service-content">
+                        <p class="service-subtitle">Our Services</p>
+                        <h2 class="h2 service-title">Download Your Shows <br>Watch Offline.</br></h2>
+                        <p class="service-text">
+                            Enjoy fast, high-quality downloads for all your favorite movies and TV shows. Save any title directly to your device and watch it later without needing an internet connection. Perfect for travel, low-network areas, and on-the-go entertainment.
+                        </p>
+                        <ul class="service-list">
+                            <li>
+                                <div class="service-card">
+                                    <div class="card-icon">
+                                        <ion-icon name="tv"></ion-icon>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="h3 card-title">Enjoy on Your TV.</h3>
+                                        <p class="card-text">
+                                            Stream movies and shows directly on your smart TV, PlayStation, Xbox, or any Chromecast-enabled device with smooth HD playback.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-card">
+                                    <div class="card-icon">
+                                        <ion-icon name="videocam"></ion-icon>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 class="h3 card-title">Watch Everywhere.</h3>
+                                        <p class="card-text">
+                                            Access your library on mobile, tablet, and laptop. Continue watching from where you stopped — anytime, anywhere.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="top-rated" id="top-rated">
+                <div class="container">
+                    <p class="section-subtitle">Online Streaming</p>
+                    <h2 class="h2 section-title">Top Rated Movies</h2>
+                    <ul class="filter-list">
+                        <li>
+                            <button class="filter-btn">Movies</button>
+                        </li>
+                        <li>
+                            <button class="filter-btn">TV Shows</button>
+                        </li>
+                        <li>
+                            <button class="filter-btn">Documentary</button>
+                        </li>
+                        <li>
+                            <button class="filter-btn">Sports</button>
+                        </li>
+                    </ul>
+                    <ul class="topMovies-list">
+                        <li>
+                            <div class="topMovie-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href="">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">2K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="topMovie-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href="">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">HD</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="topMovie-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href="">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">3K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="topMovie-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href="">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">3K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="topMovie-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">4K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="PT115M"></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="topMovie-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">4K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="topMovie-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">HD</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="topMovie-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">HD</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="tv-series" id="tv-series">
+                <div class="container">
+                    <p class="section-subtitle">Best TV Series</p>
+                    <h2 class="h2 section-title">World Best TV Series</h2>
+                    <ul class="tv-list">
+                        <li>
+                            <div class="tv-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">2K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tv-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">2K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tv-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">2K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tv-card">
+                                <a href="./movie-details.html">
+                                    <figure class="card-banner">
+                                        <img src="" alt="">
+                                    </figure>
+                                </a>
+                                <div class="title-wrapper">
+                                    <a href=" ">
+                                        <h3 class="card-title"></h3>
+                                    </a>
+                                    <time datetime=""></time>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">4K</div>
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime=""></time>
+                                    </div>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <data></data>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="cta">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <h2 class="cta-title">Trial start first 30 days.</h2>
+                        <p class="cta-text">
+                            Enter your email to create or restart your membership.
+                        </p>
+                    </div>
+                    <form action="" class="cta-form">
+                        <input type="email" name="email" required placeholder="Enter your email" class="email-field">
+                        <button type="submit" class="cta-form-btn">Get started</button>
+                    </form>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-brand-wrapper">
+                    <a href="" class="logo">
+                        <img src="" class="site-logo" id="logo2" alt="Filmheaven logo">
+                    </a>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="./index.html" class="footer-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#upcoming" class="footer-link">Movie</a>
+                        </li>
+                        <li>
+                            <a href="#top-rated" class="footer-link">TV Show</a>
+                        </li>
+                        <li>
+                            <a href="#tv-series" class="footer-link">Web Series</a>
+                        </li>
+                        <li>
+                            <a href="./search.html" class="footer-link">Search</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="divider"></div>
+                <div class="quicklink-wrapper">
+                    <ul class="quicklink-list">
+                        <li>
+                            <a href="#" class="quicklink-link">Faq</a>
+                        </li>
+                        <li>
+                            <a href="#" class="quicklink-link">Help center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="quicklink-link">Terms of use</a>
+                        </li>
+                        <li>
+                            <a href="#" class="quicklink-link">Privacy</a>
+                        </li>
+                    </ul>
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2025 <a href="#">kehindeoloruntayo</a>. All Rights Reserved
+                </p>
+                <img src="" alt="Online banking companies logo" class="footer-bottom-img">
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
